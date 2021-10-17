@@ -196,3 +196,13 @@ a {
     background-color: #3882F6;
     border: solid #F9FAF8 2px;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 57px;
+}
