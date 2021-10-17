@@ -30,3 +30,54 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.awesome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 100px 50px;
+    gap: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 500px;
+    gap: 12px;
+}
+
+.imageplaceholder {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    color: black;
+}
+
+.heroheader {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.herosecondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    border: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 15px;
+}
