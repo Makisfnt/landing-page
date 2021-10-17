@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Helvetica now', Arial, sans-serif;
 }
 
 .header {
@@ -36,7 +37,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    padding: 100px 50px;
+    padding: 50px 100px;
     gap: 15px;
 }
 
@@ -80,4 +81,49 @@ button {
     border-radius: 10px;
     font-weight: 800;
     font-size: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 100px;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.infocontent {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.infocard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 150px;
+    gap: 5px;
+}
+
+.imagecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: solid #3882F6 3px;
+}
+
+.infocardtext {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
