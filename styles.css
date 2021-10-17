@@ -3,6 +3,16 @@ body {
     font-family: 'Helvetica now', Arial, sans-serif;
 }
 
+button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -71,16 +81,11 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.awesomebutton {
     border: none;
     background-color: #3882F6;
     color: #F9FAF8;
-    text-align: center;
     text-decoration: none;
-    padding: 10px 40px;
-    border-radius: 10px;
-    font-weight: 800;
-    font-size: 15px;
 }
 
 .info {
@@ -150,4 +155,44 @@ button {
     display: flex;
     width: 800px;
     justify-content: right;
+}
+
+.calltoaction {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    align-items: center;
+}
+
+.calltoactionbox {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.calltoactiontext {
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoactionheader {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.calltoactionsubtext {
+    font-size: 18px;
+    color: white;
+}
+
+.callbutton {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: solid #F9FAF8 2px;
 }
